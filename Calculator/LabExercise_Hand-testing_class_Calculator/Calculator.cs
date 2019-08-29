@@ -51,11 +51,11 @@ namespace LabExercise_Hand_testing_class_Calculator
 
 		public double Divide(double dividend, double divisor)
 		{
-			if (dividend != 0 || divisor != divisor)
+			if (divisor != 0)
 				return dividend / divisor;
 			else
 			{
-				throw new Exception("You tried to devide by 0, stop that or ill delete you're WOW acc!");
+				throw new ArgumentException("You tried to devide by 0, stop that or ill delete you're WOW acc!");
 			}
 		}
 	}
