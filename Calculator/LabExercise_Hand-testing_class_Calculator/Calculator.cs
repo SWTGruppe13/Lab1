@@ -58,5 +58,15 @@ namespace LabExercise_Hand_testing_class_Calculator
 				throw new ArgumentException("You tried to devide by 0, stop that or ill delete you're WOW acc!");
 			}
 		}
+
+        public double Divide(double divisor)
+        {
+            if (divisor != 0)
+                return Accumulator/divisor;
+            else
+            {
+                throw new ArgumentException("You tried to devide by 0, stop that or ill delete you're WOW acc!");
+            }
+        }
 	}
 }
