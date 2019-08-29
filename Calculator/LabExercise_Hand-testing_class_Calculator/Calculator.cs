@@ -28,21 +28,16 @@ namespace LabExercise_Hand_testing_class_Calculator
 			return Math.Pow(x, exp);
 		}
 
-
-        public void Clear()
-        {
-            Accumulator = 0;
-        }
-
 		public double Divide(double dividend, double divisor)
 		{
-			if (dividend != 0 || divisor != divisor)
+			if (divisor != 0)
 				return dividend / divisor;
 			else
 			{
-				throw new Exception("You tried to devide by 0, stop that or ill delete your WOW acc!");
+				throw new ArgumentException("You tried to devide by 0, stop that or ill delete you're WOW acc!");
 			}
 		}
-    }
+		
 
+	}
 }

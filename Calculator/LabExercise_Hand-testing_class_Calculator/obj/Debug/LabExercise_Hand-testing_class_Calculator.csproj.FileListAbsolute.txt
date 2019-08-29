@@ -5,3 +5,10 @@ C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Calculator\LabExercise_Han
 C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.exe
 C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.pdb
+C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\bin\Debug\LabExercise_Hand-testing_class_Calculator.exe.config
+C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\bin\Debug\LabExercise_Hand-testing_class_Calculator.exe
+C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\bin\Debug\LabExercise_Hand-testing_class_Calculator.pdb
+C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.exe
+C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.pdb
