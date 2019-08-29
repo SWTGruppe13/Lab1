@@ -43,9 +43,9 @@ namespace CalculatorTest
 		}
 
 		[Test]
-		public void DivideByZero_Zero_DevidedBy_Two()
+		public void DivideByZero_Two_DevidedBy_Zero()
 		{
-
+			Assert.Throws<ArgumentException>(() => uut.Divide(2, 0));
 		}
 	}
 }
