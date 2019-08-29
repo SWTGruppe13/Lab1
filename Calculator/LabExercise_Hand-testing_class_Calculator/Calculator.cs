@@ -35,13 +35,19 @@ namespace LabExercise_Hand_testing_class_Calculator
 
         public double Multiply(double multiplier)
         {
-
+            return Accumulator *= multiplier;
         }
 
 		public double Power(double x, double exp)
 		{
 			return Math.Pow(x, exp);
 		}
+
+        public double Power(double exponent)
+        {
+            Accumulator = Math.Pow(Accumulator, exponent);
+            return Accumulator;
+        }
 
 		public double Divide(double dividend, double divisor)
 		{
@@ -52,7 +58,5 @@ namespace LabExercise_Hand_testing_class_Calculator
 				throw new Exception("You tried to devide by 0, stop that or ill delete you're WOW acc!");
 			}
 		}
-		
-
 	}
 }
