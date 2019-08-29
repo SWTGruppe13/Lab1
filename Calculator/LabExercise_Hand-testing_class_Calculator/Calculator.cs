@@ -27,5 +27,10 @@ namespace LabExercise_Hand_testing_class_Calculator
 		{
 			return Math.Pow(x, exp);
 		}
-	}
+
+        public void Clear()
+        {
+            Accumulator = 0;
+        }
+    }
 }
