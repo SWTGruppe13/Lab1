@@ -43,19 +43,26 @@ namespace LabExercise_Hand_testing_class_Calculator
 			return Math.Pow(x, exp);
 		}
 
+<<<<<<< HEAD
         public double Power(double exponent)
         {
             Accumulator = Math.Pow(Accumulator, exponent);
             return Accumulator;
         }
 
+=======
+        public void Clear()
+        {
+            Accumulator = 0;
+        }
+>>>>>>> bf02b9bbfe4f6092699830ec2d6da227c958e798
 		public double Divide(double dividend, double divisor)
 		{
 			if (divisor != 0)
 				return dividend / divisor;
 			else
 			{
-				throw new ArgumentException("You tried to devide by 0, stop that or ill delete you're WOW acc!");
+				throw new ArgumentException("You tried to devide by 0, stop that or ill delete your WOW acc!");
 			}
 		}
 
