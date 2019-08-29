@@ -41,5 +41,11 @@ namespace CalculatorTest
 		{
 			Assert.That(uut.Power(4, 2), Is.EqualTo(16));
 		}
+
+		[Test]
+		public void DivideByZero_Zero_DevidedBy_Two()
+		{
+
+		}
 	}
 }
