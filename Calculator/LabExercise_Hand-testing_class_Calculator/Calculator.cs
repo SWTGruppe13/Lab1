@@ -12,16 +12,31 @@ namespace LabExercise_Hand_testing_class_Calculator
 		{
 			return a + b;
 		}
+        
+        public double Add(double addend)
+        {
+            return Accumulator += addend;
+        }
 
 		public double Subtract(double a, double b)
 		{
 			return a - b;
 		}
 
+        public double Subtract(double subtractor)
+        {
+            return Accumulator -= subtractor;
+        }
+
 		public double Multiply(double a, double b)
 		{
 			return a * b;
 		}
+
+        public double Multiply(double multiplier)
+        {
+
+        }
 
 		public double Power(double x, double exp)
 		{
