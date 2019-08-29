@@ -42,5 +42,17 @@ namespace LabExercise_Hand_testing_class_Calculator
 		{
 			return Math.Pow(x, exp);
 		}
+
+		public double Divide(double dividend, double divisor)
+		{
+			if (dividend != 0 || divisor != divisor)
+				return dividend / divisor;
+			else
+			{
+				throw new Exception("You tried to devide by 0, stop that or ill delete you're WOW acc!");
+			}
+		}
+		
+
 	}
 }
