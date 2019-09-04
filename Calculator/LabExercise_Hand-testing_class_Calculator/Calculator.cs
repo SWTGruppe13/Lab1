@@ -43,19 +43,16 @@ namespace LabExercise_Hand_testing_class_Calculator
 			return Math.Pow(x, exp);
 		}
 
-<<<<<<< HEAD
         public double Power(double exponent)
         {
             Accumulator = Math.Pow(Accumulator, exponent);
             return Accumulator;
         }
 
-=======
         public void Clear()
         {
             Accumulator = 0;
         }
->>>>>>> bf02b9bbfe4f6092699830ec2d6da227c958e798
 		public double Divide(double dividend, double divisor)
 		{
 			if (divisor != 0)
