@@ -10,9 +10,11 @@ namespace LabExercise_Hand_testing_class_Calculator
 	{
 		public double Add(double a, double b)
 		{
+            Accumulator = a + b;
 			return a + b;
 		}
-        
+        public double Accumulator { get; private set; }
+
         public double Add(double addend)
         {
             return Accumulator += addend;
@@ -20,6 +22,7 @@ namespace LabExercise_Hand_testing_class_Calculator
 
 		public double Subtract(double a, double b)
 		{
+            Accumulator = a - b;
 			return a - b;
 		}
 
@@ -30,6 +33,7 @@ namespace LabExercise_Hand_testing_class_Calculator
 
 		public double Multiply(double a, double b)
 		{
+            Accumulator = a * b;
 			return a * b;
 		}
 
@@ -40,6 +44,7 @@ namespace LabExercise_Hand_testing_class_Calculator
 
 		public double Power(double x, double exp)
 		{
+            Accumulator = Math.Pow(x, exp);
 			return Math.Pow(x, exp);
 		}
 
@@ -55,18 +60,21 @@ namespace LabExercise_Hand_testing_class_Calculator
         }
 		public double Divide(double dividend, double divisor)
 		{
-			if (divisor != 0)
-				return dividend / divisor;
-			else
-			{
-				throw new ArgumentException("You tried to devide by 0, stop that or ill delete your WOW acc!");
-			}
+            if (divisor != 0)
+            {
+                Accumulator = dividend / divisor;
+                return dividend / divisor;
+            }
+            else
+            {
+                throw new ArgumentException("You tried to devide by 0, stop that or ill delete your WOW acc!");
+            }
 		}
 
         public double Divide(double divisor)
         {
             if (divisor != 0)
-                return Accumulator/divisor;
+                return Accumulator/=divisor;
             else
             {
                 throw new ArgumentException("You tried to devide by 0, stop that or ill delete you're WOW acc!");

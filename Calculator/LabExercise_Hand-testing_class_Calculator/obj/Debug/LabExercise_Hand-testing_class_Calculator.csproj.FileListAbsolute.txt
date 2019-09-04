@@ -12,3 +12,10 @@ C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercis
 C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.exe
 C:\Users\User\Desktop\Skole 4. Semester\SWT\Lektion 1\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.pdb
+D:\IKT\SWT\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\bin\Debug\LabExercise_Hand-testing_class_Calculator.exe.config
+D:\IKT\SWT\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\bin\Debug\LabExercise_Hand-testing_class_Calculator.exe
+D:\IKT\SWT\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\bin\Debug\LabExercise_Hand-testing_class_Calculator.pdb
+D:\IKT\SWT\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.csprojAssemblyReference.cache
+D:\IKT\SWT\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.csproj.CoreCompileInputs.cache
+D:\IKT\SWT\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.exe
+D:\IKT\SWT\Lab1\Calculator\LabExercise_Hand-testing_class_Calculator\obj\Debug\LabExercise_Hand-testing_class_Calculator.pdb
