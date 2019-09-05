@@ -8,7 +8,7 @@ using NUnit.Framework;
 
 namespace CalculatorTest
 {
-    public class TestAdd
+    public class ClTestAddass1
     {
         private Calculator uut;
 
