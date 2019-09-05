@@ -26,7 +26,7 @@ namespace CalculatorTest
 		[TestCase(4.5, 5.5, 10)]
 		[TestCase(7.3, 7.4, 14.7)]
 		[TestCase(-2.2, -4.2, -6.4)]
-        public void AddTwoNumbers_Simpel_NegativNumber_Decimal(Double a, Double b, Double c)
+        public void AddTwoNumbers_Simple_NegativeNumber_Decimal(Double a, Double b, Double c)
         {
             Assert.That(uut.Add(a, b), Is.EqualTo(c));
         }
@@ -36,6 +36,12 @@ namespace CalculatorTest
         {
             uut.Add(5+5);
             Assert.That(uut.Add(7), Is.EqualTo(17));
+        }
+
+        [Test]
+        public void AddNumberToEmptyAccumulator()
+        {
+            Assert.That(uut.Add(15), Is.EqualTo(15));
         }
     }
 

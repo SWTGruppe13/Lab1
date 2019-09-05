@@ -67,7 +67,7 @@ namespace LabExercise_Hand_testing_class_Calculator
             }
             else
             {
-                throw new ArgumentException("You tried to devide by 0, stop that or ill delete your WOW acc!");
+                throw new ArgumentException("You tried to divide by 0, stop!");
             }
 		}
 
@@ -77,7 +77,7 @@ namespace LabExercise_Hand_testing_class_Calculator
                 return Accumulator/=divisor;
             else
             {
-                throw new ArgumentException("You tried to devide by 0, stop that or ill delete you're WOW acc!");
+                throw new ArgumentException("You tried to divide by 0, stop!");
             }
         }
 	}
