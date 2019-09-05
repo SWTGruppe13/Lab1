@@ -18,6 +18,15 @@ namespace CalculatorTest
             uut = new Calculator();
         }
 
+        [TestCase(4, 2, 2)]
+        [TestCase(10, 2, 5)]
+        [TestCase(-5, 2, -2.5)]
+        [TestCase(9.9,3,3.3)]
+        public void Divide_Test_Simpel_Decimal_Negativ(double a, double b, double c)
+        {
+            Assert.That(uut.Divide(a, b), Is.EqualTo(c).Within(0.03));
+        }
+
         [Test]
         public void DivideByZero_Two_DevidedBy_Zero()
         {
